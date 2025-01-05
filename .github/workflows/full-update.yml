@@ -1,8 +1,8 @@
 name: Full update
 
 on:
-  schedule:
-    - cron:  '30 18 */3 * *'
+  # schedule:
+  #   - cron:  '30 18 */3 * *'
   workflow_dispatch:
 
 jobs:
